@@ -104,7 +104,8 @@ while (!gameOver) {
     }
 
     if (remainingTries <= 0) {
-        alert(`🥺 You LOST! The secret word is "${secretWord.toUpperCase()}" `);
+        alert(`🥺 You LOST! The secret word is "${secretWord.toUpperCase()}".
+        Better luck next time and Thanks for playing!`);
         gameOver = true;
     }
 }
